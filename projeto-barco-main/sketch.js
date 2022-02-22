@@ -3,10 +3,11 @@ var seaImg,shipImg;
 
 function preload(){
   seaImg = loadImage("sea.png");
-  //shipImg1 = loadAnimation("ship1.png","ship1.png",
-  //  "ship2.png","ship1.png");
+  shipImg1 = loadAnimation("ship1.png","ship1.png", "ship2.png","ship1.png");
+  
   // shipImg1 = loadAnimation("ship1.png");
- shipImg1 = loadAnimation("ship2.png");
+ // shipImg1 = loadAnimation("ship1.png");
+ // shipImg1 = loadAnimation("ship2.png");
   //shipImg1 = loadAnimation("ship1.png","ship1.png",
    // "ship1.png","ship1.png");
 }
